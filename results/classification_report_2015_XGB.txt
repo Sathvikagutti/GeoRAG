@@ -1,0 +1,10 @@
+              precision    recall  f1-score   support
+
+    Built-up     0.8789    0.6657    0.7576     19726
+  Vegetation     0.8253    0.9512    0.8838     40432
+       Water     0.8723    0.6776    0.7627      4426
+   Open Land     0.8844    0.6959    0.7789      1858
+
+    accuracy                         0.8411     66442
+   macro avg     0.8652    0.7476    0.7957     66442
+weighted avg     0.8460    0.8411    0.8353     66442

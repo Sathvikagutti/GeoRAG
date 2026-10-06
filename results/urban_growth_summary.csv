@@ -1,0 +1,9 @@
+source,class_name,area_2015_km2,area_2020_km2,area_2025_km2,change_15_20_km2,change_20_25_km2,change_15_25_km2
+labels_10m,Built-up,89.25,103.39,113.22,14.14,9.83,23.97
+labels_10m,Vegetation,183.36,170.26,160.57,-13.1,-9.69,-22.79
+labels_10m,Water,19.85,26.16,24.95,6.31,-1.21,5.1
+labels_10m,Open Land,8.34,11.67,12.72,3.33,1.05,4.38
+predictions_30m,Built-up,69.14,122.16,,53.02,,
+predictions_30m,Vegetation,220.77,144.38,,-76.39,,
+predictions_30m,Water,15.5,20.77,,5.27,,
+predictions_30m,Open Land,6.74,10.31,,3.57,,

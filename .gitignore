@@ -1,0 +1,53 @@
+# ==============================================================================
+# GeoRAG Member 2 - .gitignore
+# ==============================================================================
+
+# Python bytecode and build artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# IDE and OS files
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+.freebuff/
+
+# Archives
+*.zip
+*.tar.gz
+*.pbf
+
+# Upstream Member 1 datasets (multi-gigabyte rasters and raw CSVs)
+# Note: Member 1 data resides in upstream workspace and is referenced by Member 2
+GeoRag/
+data/
+
+# Heavy Random Forest model binaries (RF_2015 is 1.25 GB; RF_2020 is 137 MB)
+# XGBoost models (models/XGB_*.pkl, ~12.7 MB total) are tracked and included.
+models/RF_*.pkl
+
+# Explicitly ensure lightweight models and deliverables are tracked
+!models/XGB_*.pkl
+!predictions/*.tif
+!maps/**/*.png
+!maps/*.png
+!results/**/*.csv
+!results/*.csv
+!results/*.txt
+!reports/*.md
+!notebooks/*.ipynb

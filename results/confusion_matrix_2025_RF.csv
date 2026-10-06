@@ -1,0 +1,5 @@
+,pred_Built-up,pred_Vegetation,pred_Water,pred_Open Land
+actual_Built-up,1932,271,5,24
+actual_Vegetation,213,1195,1,4
+actual_Water,38,11,478,16
+actual_Open Land,59,1,11,688

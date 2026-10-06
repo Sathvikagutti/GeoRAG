@@ -1,0 +1,3 @@
+Training_Years,Test_Year,Model,Accuracy,Precision_Macro,Recall_Macro,F1_Macro,Kappa,fit_seconds
+2015+2020,2025,RF,0.821,0.8706,0.8398,0.848,0.7387,170.1
+2015+2020,2025,XGB,0.8145,0.8642,0.8392,0.8433,0.7305,62.6
